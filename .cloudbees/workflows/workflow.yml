@@ -107,7 +107,7 @@ jobs:
         uses: cloudbees-io/publish-test-results@v1
         with:
           test-type: jest
-          folder-name: ${{ cloudbees.workspace }}/test_data/jest/nextgen-ui/jest-results.json
+          folder-name: ${{ cloudbees.workspace }}/test_data/jest/jest-results.json
 
 
   Playwright-Test:
